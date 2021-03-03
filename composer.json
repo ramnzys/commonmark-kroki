@@ -1,0 +1,31 @@
+{
+    "name": "ramnzys/commonmark-kroki",
+    "description": "This extension adds ability to render kroki images for code blocks.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramón E. Zayas",
+            "email": "ramnzys@gmail.com"
+        }
+    ],
+    "keywords" : [
+        "markdown",
+        "commonmark",
+        "kroki",
+        "diagrams",
+        "plantuml"
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "league/commonmark": "^1.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Ramnzys\\CommonmarkKrokiExtension\\" : "src"
+        }
+    }
+}
