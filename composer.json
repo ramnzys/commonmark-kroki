@@ -1,6 +1,6 @@
 {
     "name": "ramnzys/commonmark-kroki",
-    "description": "This extension adds ability to render kroki images for code blocks.",
+    "description": "Renders diagrams using kroki service with league/commonmark.",
     "license": "MIT",
     "authors": [
         {
